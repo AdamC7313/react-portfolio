@@ -1,0 +1,76 @@
+.nav-bar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40%;
+    align-self: center;
+    position: absolute;
+    top: 200px;
+    left: 60px;
+}
+
+.nav-button {
+    font-weight: bold;
+    font-size: 24px;
+    width: 110px;
+    text-decoration: none;
+    color: #E7AB79;
+}
+
+.nav-button:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 0;
+    position: relative;
+    background: #E7AB79;
+    transition: width 0.3s ease 0s;
+    width: 0;
+}
+
+#home-button:hover:after { 
+width: 68px; 
+right: 0; 
+}
+
+#home-button.active:after { 
+    width: 68px; 
+    right: 0; 
+}
+
+#aboutme-button.active:after { 
+width: 110px; 
+left: 0; 
+}
+
+#aboutme-button:hover:after { 
+    width: 110px; 
+    left: 0; 
+    }
+
+#projects-button:hover:after { 
+width: 90px; 
+left: 0; 
+}
+
+#projects-button.active:after { 
+    width: 90px; 
+    left: 0; 
+}
+
+#skills-button:hover:after { 
+width: 64px; 
+left: 0; 
+}
+
+#skills-button.active:after { 
+    width: 64px; 
+    left: 0; 
+    }
+
+.nav-button:hover {
+    cursor: pointer; 
+}
