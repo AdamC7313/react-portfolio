@@ -1,0 +1,27 @@
+.contact-button {
+    color: #E7AB79;
+}
+
+.contact-container {
+    position: absolute;
+    right: 60px;
+    top: 45px;
+    display: grid;
+    height: 20px;
+    grid-template: 1fr / 65px 30px 30px;
+}
+
+.e-mail, .linkedin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.e-mail {
+    font-size: 1.5rem;
+}
+
+.contact-word {
+    display: flex;
+    align-items: center;
+}
