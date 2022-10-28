@@ -1,0 +1,51 @@
+.projects .title {
+    display: flex;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.projects ul {
+    list-style-type: none;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+.top-project {
+    margin-top: 0px !important;
+}
+
+.projects {
+    padding-right: 5px;
+}
+
+code {
+    background: grey;
+    padding: 1px 3px;
+    font-family: monospace;
+    font-size: 1rem;
+    color: black;
+}
+
+.projects a {
+    display: inline-flex;
+    color: #E7AB79;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 9px;
+    width: 50px;
+}
+
+.projects a:hover {
+    color: rgb(231, 171, 121, 0.7);
+    cursor:pointer;
+}
+
+.projects a:active {
+    color: rgb(231, 171, 121);
+}
+
+.site-link {
+    margin-left: 5px;
+}
