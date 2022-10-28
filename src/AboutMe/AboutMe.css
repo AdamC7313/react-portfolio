@@ -1,0 +1,15 @@
+.about-me p {
+    margin-top: 0px;
+}
+
+.about-me-title {
+    font-size: 32px;
+    font-weight: bold;
+}
+.content {
+    line-height: 1.5;
+}
+
+.about-me p {
+    padding-right: 5px;
+}

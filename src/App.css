@@ -16,3 +16,38 @@
   top: 100px;
   left: 55px;
 }
+
+
+.content-container {
+  position: absolute;
+  top: 190px;
+  left: 350px;
+  width: 73%;
+  height: 60%;
+  overflow-y: scroll
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #4C3A51;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #E7AB79;
+opacity: 0.8;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #e7b790;
+}
+
+::-webkit-scrollbar-corner {
+background: #4C3A51;
+}
