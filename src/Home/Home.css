@@ -1,0 +1,18 @@
+.home-container h1 {
+    margin-top: 0px;
+    font-family: Inconsolata;
+    font-size: 56px;
+    margin-bottom: 50px;
+}
+
+.home-container h2 {
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.home-container {
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    width: 70%;
+}
