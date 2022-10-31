@@ -1,13 +1,12 @@
 import './Projects.css';
-import { Link } from 'react-router-dom';
 
 export default function Projects() {
     return(
         <div className="projects content">
                 <ul>
                     <div className="title top-project"><li>CLOCK</li> 
-                    <a className='site-link' href='https://clock-by-adam.netlify.app' target='_blank'>site</a>
-                    <a href='https://github.com/AdamC7313/clock_app' target='_blank'>code</a></div>
+                    <a className='site-link' href='https://clock-by-adam.netlify.app' target='_blank' rel="noreferrer">site</a>
+                    <a href='https://github.com/AdamC7313/clock_app' target='_blank' rel="noreferrer">code</a></div>
                     <div className="description"><li>This was my first project in React.js, and I don't think I knew how tough it 
                         would be when I jumped into it. The app includes a stopwatch, timer, clock and alarm.<br /><br /> 
                         Each component shows my ability to create and manage state in React.js using Hooks like <code>useEffect()</code> and <code>useState()</code>.<br /><br />

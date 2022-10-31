@@ -3,7 +3,7 @@
     display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 50%;
+    min-height: 100%;
     align-self: center;
     width: 110px;
     margin-left: 55px;
@@ -86,4 +86,8 @@ left: 0;
 
 #skills-button {
     width: 67px;
+}
+
+.nav-content-container {
+    height: 50%;
 }
