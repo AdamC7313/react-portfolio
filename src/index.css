@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	width: 100%
 }
 ol, ul {
 	list-style: none;
@@ -45,9 +46,8 @@ table {
 html {
  	background: #4C3A51;
  	color: #E7AB79;
- 	height: 100%;
   	width: 100%;
 	font-family: 'Roboto Slab';
-	overflow-x: hidden;
+	display: flex;
 }
 

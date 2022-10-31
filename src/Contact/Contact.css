@@ -3,9 +3,8 @@
 }
 
 .contact-container {
-    position: absolute;
-    right: 60px;
-    top: 45px;
+    float: right;
+    margin: 40px 50px 0px 0px;
     display: grid;
     height: 20px;
     grid-template: 1fr / 65px 30px 30px;

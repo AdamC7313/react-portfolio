@@ -5,20 +5,22 @@
 
 .skills {
     display: grid;
-    grid-template: 1fr 1fr / 1fr;
+    grid-template: 1fr 2fr / 1fr;
 }
 
 .skills-container {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
     margin-top: 20px;
+    margin-left: -20px;
+    flex-wrap: wrap;
 }
 
 .skill-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 20px;
 }
 
 

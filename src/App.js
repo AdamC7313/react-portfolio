@@ -1,4 +1,5 @@
 import './App.css';
+import './Stylesheets/MediaQueries.css';
 import Contact from './Contact/Contact';
 import Nav from './Nav/Nav';
 import Home from './Home/Home';
@@ -12,9 +13,12 @@ function App() {
   return (
     <Router>
     <div className="App">
+      <div className='name-info'>
       <h1 className='name'>Adam Cruz</h1>
       <h2 className='job-title'>Full Stack Web Developer</h2>
+      </div>
       <Contact />
+      <div className='nav-content-container'>
       <Nav />
       <div className='content-container'>
       <Routes>
@@ -23,6 +27,7 @@ function App() {
         <Route path='/projects' element={<Projects />} />
         <Route path='/skills' element={<Skills />} />
       </Routes>
+      </div>
       </div>
     </div>
     </Router>

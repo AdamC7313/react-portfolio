@@ -1,29 +1,32 @@
+.App, #root, .nav-content-container {
+  height:100%;
+  width: 100%;
+}
+
 .name {
-  position: absolute;
   font-size: 64px;
-  margin: 0px 5px;
+  margin: 45px 0px 0px 0px;
   font-weight: 300;
   font-size: 3rem;
-  top: 45px;
-  left: 55px;
 }
 
 .job-title {
-  position: absolute;
   font-weight: lighter;
   font-size: 1rem;
-  margin: 0px 5px;
-  top: 100px;
-  left: 55px;
+  margin: 10px 0px 0px 0px;
+}
+
+.name-info {
+  display: inline-block;
+  margin-left: 55px;
 }
 
 
 .content-container {
-  position: absolute;
-  top: 190px;
-  left: 350px;
+  float: right;
+  margin: 65px 40px 0px 0px;
   width: 73%;
-  height: 60%;
+  height: 70vh;
   overflow-y: scroll
 }
 
