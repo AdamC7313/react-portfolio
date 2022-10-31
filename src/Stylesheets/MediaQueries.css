@@ -17,6 +17,7 @@
         justify-content: center;
         align-items: center !important;
         flex-direction: column;
+        margin-left: 0px !important;
     }
 
     .skill-container {
@@ -173,5 +174,11 @@
 
     .skill-container {
         margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 1015px) {
+    .skills-container {
+        justify-content: left !important;
     }
 }
