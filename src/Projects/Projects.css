@@ -23,8 +23,9 @@ code {
     background: grey;
     padding: 1px 3px;
     font-family: monospace;
-    font-size: 1rem;
+    font-size: .9rem;
     color: black;
+    border-radius: 4px;
 }
 
 .projects a {
